@@ -1,0 +1,52 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Play', sans-serif;
+  }
+
+body {
+    background-image: url("wallpapersden.com_purple-sunrise-4k-vaporwave_3840x2160.jpg");
+    background-color: #cccccc;
+    background-size: cover; 
+  }
+
+  .header3 {
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-size: 50px;
+    margin-top: 75px; 
+    text-decoration-line: underline;
+    }
+    
+  .information2 {
+    text-align: left;
+    color: rgb(255, 255, 255);
+    font-size: 35px;
+    margin-top: 50px;
+    margin-left: 50px;
+    background-image: url(istockphoto-1263746475-612x612.jpg);
+    width: 500px;
+    border-radius: 10px;
+    padding: 10px 20px;
+    }
+
+.column {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+  }
+  
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+  footer {
+    text-align: center;
+    padding: 3px;
+    background-color: rgb(41, 41, 41);
+    color: white;
+    margin-top: 867px;
+  }
